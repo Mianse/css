@@ -1,0 +1,74 @@
+/*{
+    padding:0;
+    margin:0;
+}*/
+body{
+    background-color: f4f4f4;
+    color: #555555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border:5px red solid;
+    padding:20px;
+    margin: 20px 0;
+}
+
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    word-spacing: 1em;
+}
+.box-2{
+    border:3px dotted;
+    padding: 20px;
+    margin: 20px 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color: red;
+}
+
+a:active{
+    color:aqua;
+}
+a:visited{
+    color:orange;
+}
+.categories{
+    border:#ccc solid;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+.categories li{
+    padding-bottom:8px;
+    border-bottom: dotted 1px #333;
+}
